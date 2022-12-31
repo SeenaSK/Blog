@@ -1,2 +1,2 @@
 # Blog
-React and Tailwind frontend + Sanity backend
+NextJS and Tailwind frontend + Sanity backend
