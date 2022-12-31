@@ -1,9 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
-import { Inter } from "@next/font/google";
-import styles from "../styles/Home.module.css";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
@@ -15,11 +10,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <div className="flex text-center">
-        <h1 className="text-3xl font-bold underline">
+        <h1 className="text-3xl text-fuchsia-400 font-bold underline flex justify-center py-5 border-red-600 border-x-2 px-0 mx-6">
           Hello World
         </h1>
-        </div>
       </main>
     </>
   );
